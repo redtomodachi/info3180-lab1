@@ -3,15 +3,17 @@
 <head> 
     <meta charset="UTF-8"> 
     <title>My Website - About</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    <div><img src="{{url_for('static',filename='boomblast.jpeg')}}" alt="image of sunset"></div>
 </head> 
-<body> 
+<body class="container"> 
     <h1>Kemar Wilson (ケマールウィルソン)</h1> 
     <p>I am a 3rd year student of UWI, and my major is Computer Science and minor in japanese.
         I am 21 years old.  
         In my spare time i Like to watch anime,read manga and play video games.
     </p> 
     <hr>
-    <p>
+    <p class="jit">
         UWIの三年生です。僕の専攻はコンピューターサイエンス。
         そして、副専攻は日本語です。
         二十一歳です。
